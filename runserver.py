@@ -10,13 +10,10 @@ import urls
 # python runserver.py
 # To start the web server on a different port
 # python runserver.py 9001
-# To start this with DJ4E autograder support enabled
-# python runserver.py 9000 autograder
 
 port = 9000
 if len(sys.argv) > 1 :
     port = int(sys.argv[1])
 
-print('Access http://localhost:'+str(port))
+print(f'Access web server on port {port}')
 mini_django.httpServer(urls.router, port)
-
