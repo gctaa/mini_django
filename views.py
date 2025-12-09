@@ -31,8 +31,3 @@ def js4e(req: HttpRequest) -> HttpResponse:
 def broken(req: HttpRequest):
     return "I am a broken view, returning a string by mistake"
 
-
-
-
-
-
