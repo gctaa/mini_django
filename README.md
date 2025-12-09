@@ -1,4 +1,3 @@
-
 Mini Django Web Server
 ======================
 
